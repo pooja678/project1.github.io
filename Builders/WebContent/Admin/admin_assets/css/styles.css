@@ -1,0 +1,64 @@
+.app-brand {
+
+    background-color: #000;
+    padding: 30px 0 30px 0;
+}
+.sidebar .nav > li.active > a i {
+    color: #948211;
+}
+.sidebar .sidebar-inner > li > a:before {
+   
+    background: #948211;
+    
+}
+.app-brand a img{
+    max-width: unset;
+    width: 100%;
+}
+.app-brand a{
+    padding: unset;
+    padding: 10px;
+}
+
+.copyright a{
+     color: #948211 !important;
+}
+.table thead th {
+    text-align: center;
+}
+
+.table  td {
+    text-align: center;
+}
+.card-header{
+   justify-content: space-between;
+}
+.btn-primary{
+    background-color: #948211cc;
+    border-color: #948211cc;
+}
+.btn-primary:hover{
+    background-color: #948211;
+    border-color: #948211;
+}
+/* Wrapper */
+.wrapper {
+  
+  min-height: unset!important;
+}
+
+.header-fixed .page-wrapper {
+    padding-top: 1.875rem;
+}
+.card-default .card-body {
+   
+    padding-top: 30px;
+}
+.footer{
+	padding-left:1rem;
+	text-align:center;
+}
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle{
+    background-color: #948211cc!important;
+    border-color: #948211cc!important;	
+}
